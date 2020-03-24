@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/milan/Documents/TUM/fde/hw2/fde19-bonusproject-2/trips.scala:6:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mdef time[T](proc: => T): T = {[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/milan/Documents/TUM/fde/hw2/fde19-bonusproject-2/trips.scala:14:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval schema = StructType(Array([0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/milan/Documents/TUM/fde/hw2/fde19-bonusproject-2/trips.scala:36:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval tripsDF = spark.read.schema(schema).option("header", true).csv("data/yellow_tripdata_2016-01.short.csv")[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/milan/Documents/TUM/fde/hw2/fde19-bonusproject-2/trips.scala:37:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval trips = tripsDF.where($"pickup_longitude" =!= 0 && $"pickup_latitude" =!= 0 && $"dropoff_longitude" =!= 0 && $"dropoff_latitude" =!= 0)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
