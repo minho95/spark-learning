@@ -10,13 +10,6 @@ Which tags are together most often? *
 
 Which questions have most answers? *
 
-How many not answered questions are there? *
+Which questions have no answer? *
 
--- How many negatively scored questions are there?
-
--- Negatively vs positively scored questions
-
--- Users with all negatively rated questions?
-
--- Users with the highest rating of the questions
-
+Questions count by year and month

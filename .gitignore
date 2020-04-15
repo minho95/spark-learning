@@ -1,4 +1,5 @@
 *.pyc
 __pycache__/
-pythonquestions/data
-pythonquestions/output
+.vscode
+pythonquestions/data/*
+pythonquestions/output/*
